@@ -1,0 +1,90 @@
+<html lang="en">
+    <head>
+        <title>Create your online store today with Shopify USA</title>
+        <meta charset="utf-8">
+        
+        
+        <link rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/brochure-iii/production/_assets/brochureV2-27O6GOQ7.css">
+     
+   
+    </head>
+    <body>
+        <div id="mydiv"></div>
+
+        <!-- AS LINHAS ABAIXO SÃO NECESSÁRIAS PARA O CORRETO FUNCIONAMENTO DO REACT -->
+    
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+        <!-- A linha abaixo carrega a biblioteca bootstrap bootstrap.bundle.min.js para funcionar corretamente o bootstrap -->
+        <script src="./bootstrap.bundle.min.js"></script>
+    
+        <!-- <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script> -->
+        <!-- A linha abaixo carrega a biblioteca de desenvolvimento do react react.development.js para funcionar corretamente o react -->
+        <script src="./react.development.js"></script>
+    
+        <!-- <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script> -->
+        <!-- A linha abaixo carrega a biblioteca popper popper.js para uso de elementos como menus, tooltips e popovers no react -->
+        <script src="./popper.js"></script>
+    
+        <!-- <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script> -->
+        <!-- A linha abaixo carrega a biblioteca de desenvolvimento react-dom react-dom.development.js para uso de elementos virtuais no react -->
+        <script src="./react-dom.development.js"></script>
+    
+        <!-- <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>     -->
+        <!-- A linha abaixo carrega a biblioteca babel babel.js para transpilar, via JavaScript, todo código react -->
+        <script src="./babel.min.js"></script>
+    
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/6.22.2/react-router-dom.production.min.js" integrity="sha512-82Gx5QtMrxGdjQk0W8k1+yVQL3mhQUMQJkBWfCp0IuGqyyYtxA1Sd4VfhdbZIPaEX2MEOSvy7Hb17w7zYRNfJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+        <!-- A linha abaixo carrega a biblioteca de produção do componente react-router-dom react-router-dom.production.min.js, que serve para criar reoteadores (caminhos) para o react -->
+        <script src="./react-router-dom.production.min.js"></script>
+    
+        <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
+        <!-- A linha abaixo carrega a biblioteca de produção do componente jquery jquery-3.7.1.min.js, que serve para utilizar o "ajax" que conecta formulário com banco de dados no react -->
+        <script src="./jquery-3.7.1.min.js"></script>
+    
+        <!-- A linha abaixo inicia o bloco de códigos react, cujo atributo "type" é definido para "text/babel", que é o transpilador de código react -->
+        <script type="text/babel">
+    
+    const varNavBar = React.createRef();
+
+    const var_NavBar = (
+    
+        <div className="mx-auto px-4 pt-6 max-w-md">
+            <div className="flex justify-center" data-component-name="email-form">
+                <form noValidate action="" className="flex w-full flex-col justify-center" method="post" __bizdiag="-522024777" __biza="W___">
+                    <div className="relative box-border flex justify-between items-start w-full duration-300 ease-out peer placeholder:text-transparent ring-1 ring-inset rounded-[3em] hover:focus-within:ring-state-focus focus-within:ring-state-focus focus-within:outline-0 bg-white text-black default:ring-shade-30 hover:ring-shade-50">
+                        <input placeholder="Enter your email address" autoComplete="email" type="email" aria-describedby="-description" className="w-full ml-2 px-4 pb-2 pt-6 peer placeholder:text-transparent input:bg-transparent bg-transparent focus-visible:outline-none" id="" name="" />
+                        <label htmlFor="" className="absolute text-base pointer-events-none duration-300 ease-out -translate-y-3 scale-75 top-4 z-10 origin-[0] left-6 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3 text-shade-60 peer-focus:text-shade-60 peer-placeholder-shown:text-black">
+                            Enter your email address
+                        </label>
+                        <div className="hidden md:block">
+                            <button type="submit" className="inline-block self-center overflow-hidden max-w-full px-button-px ring-inset rounded-button text-button-size font-button-font font-button-weight tracking-button-tracking transition-all duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-state-focus focus-visible:outline border-2 text-button-light-primary-text bg-button-light-primary-bg border-button-light-primary-border ring-button-light-primary-border hover:text-button-light-primary-text-hover hover:bg-button-light-primary-bg-hover hover:border-button-light-primary-border-hover hover:ring-button-light-primary-border-hover focus:text-button-light-primary-text-focus focus:bg-button-light-primary-bg-focus focus:border-button-light-primary-border-focus focus:ring-button-light-primary-border-focus active:text-button-light-primary-text-active active:bg-button-light-primary-bg-active active:border-button-light-primary-border-active active:ring disabled:text-button-light-primary-text-disabled disabled:bg-button-light-primary-bg-disabled disabled:border-button-light-primary-border-disabled disabled:ring-button-light-primary-border-disabled mr-1 my-1 whitespace-nowrap py-3" data-component-name="start-free-trial" data-mode="light">
+                                Start free trial
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    )
+
+ 
+const ObjetoNavBar = () => {
+            
+            return var_NavBar;
+        }
+
+        
+        const container = document.getElementById('mydiv');
+
+       
+        const root = ReactDOM.createRoot(container);
+
+       
+        root.render(<ObjetoNavBar />);
+
+</script>
+
+
+</body>
+</html>
